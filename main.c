@@ -1,7 +1,10 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(void) {
+  size_t len;
   char str[] = "hello";
-  printf("hello.%s\n", str);
+  len = strlen(str);
+  printf("hello.%s:%d\n", str, len);
   return 0;
 }
