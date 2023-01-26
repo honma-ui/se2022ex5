@@ -2,7 +2,6 @@
 
 int main(void) {
   char str[] = "hello";
-  printf("%s\n", str);
-  printf("hello");
+  printf("hello.%s\n", str);
   return 0;
 }
